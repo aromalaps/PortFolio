@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden;
+}
+
+.skill-mf span {
+    color: #4e4e4e;
+}
+
+.skill-mf .progress {
+    background-color: #adcdf3;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+}
+
+.skill-mf .progress .progress-bar {
+    height: 0.7rem;
+    background-color: #0077ff;
+}
+
+.skill_other {
+    padding-top: 38px !important;
+}
+
+.skill_other .progress1 {
+    background-color: #000000;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+}
+
+.main4 {
+    position: relative !important;
+    background-color: black !important;
+    height: 100vh !important;
+    z-index: 0 !important;
+}
+
+.page_4_text_2 {
+    position: absolute !important;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 48px;
+    letter-spacing: 4px;
+    left: 26%;
+    top: 3%;
+    opacity: .3;
+}
+
+@media (max-width:1080px) {
+    .page_4_text_2 {
+        font-size: 30px;
+    }
+}
+
+.skill-mf {
+    position: absolute;
+    top: 30%;
+    right: 4%;
+    width: 44.3vw;
+    background-color: #000000;
+}
+
+
+@media (max-width:600px) {
+    .skill-mf {
+        top: 50%;
+    }
+}
+
+
+
+
+
+.skill-mf-2 {
+    position: absolute;
+
+    left: 5%;
+}
+
+
+
+/* OTHERS */
+.fr_text_2 {
+
+    position: absolute;
+    top: 29%;
+    z-index: 5;
+    left: 53%;
+    font-size: 30px;
+    color: rgb(247, 247, 247);
+}
+
+/*  */
+@media (width >1370px) {
+    .page_4_text_2 {
+        left: 32%;
+
+    }
+
+    .fr_text_2 {
+        left: 53%;
+    }
+
+}
